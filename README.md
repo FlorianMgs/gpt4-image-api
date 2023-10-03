@@ -1,6 +1,7 @@
 # GPT4 Image Recognition API
 Small tool using selenium to get a temporary API endpoint for the ChatGPT Image Input / image recognition feature.  
 Very quickly made, you should not rely on this on prod.  
+Should be deprecated as soon as we have access to official OpenAI endpoints.  
 Works with google authentification. If you use a different login method, please modify the code for your usecase.  
 
 # Installation
