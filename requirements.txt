@@ -1,0 +1,4 @@
+fastapi==0.103.2
+python-dotenv==1.0.0
+undetected-chromedriver==3.5.3
+uvicorn==0.23.2
