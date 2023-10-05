@@ -5,7 +5,7 @@ Should be deprecated as soon as we have access to official OpenAI endpoints.
 Works with google authentification. If you use a different login method, please modify the code for your usecase.  
 
 # Installation
-- Clone the repo  
+- Create venv, then clone the repo  
 - Install requirements:  
 `pip install -r requirements.txt`
 - Define a `.env` file with your OpenAI Google credentials (or whatever but make sure to modiy the code appropriately)
