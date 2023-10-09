@@ -78,8 +78,7 @@ async def perform_action(payload: Payload):
 
         # open new chat
         driver.get("https://chat.openai.com/?model=gpt-4")
-        image_upload_btn = (By.XPATH, '//button[aria-haspopup="dialog"]')
-        WebDriverWait(driver, 120).until(EC.element_to_be_clickable(image_upload_btn))
+        time.sleep(5)
 
         # Make the input file element visible
         driver.execute_script(
